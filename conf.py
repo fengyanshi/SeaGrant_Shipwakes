@@ -17,7 +17,7 @@
 
 # -- Project information -----------------------------------------------------
 
-project = 'SeaGrantShipWakes'
+project = 'SeaGrant'
 copyright = '2019, Fengyan Shi'
 author = 'Fengyan Shi'
 
