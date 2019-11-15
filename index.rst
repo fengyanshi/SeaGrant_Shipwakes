@@ -18,6 +18,7 @@ Efforts will be achieved through extensive field efforts pre- and post-installat
    :maxdepth: 2
 
    progress
+   model
 
 Indices and tables
 ==================
