@@ -9,6 +9,7 @@
 .. toctree::
    :maxdepth: 2
    
+   related_automate_system.rst
    related_inlandbays.rst
    related_south_bethany.rst
    related_brockonbridge.rst
