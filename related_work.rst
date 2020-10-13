@@ -14,4 +14,5 @@
    related_south_bethany.rst
    related_brockonbridge.rst
    related_murderkill.rst
+   related_wilmington.rst
    
