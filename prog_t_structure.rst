@@ -3,7 +3,7 @@ Tests with T--structures
 
 * Vessel parameters
 
-  * Ship name: HOEGH VERLIN
+  * Ship name: HOEGH BERLIN
   * Ship Type: VE
   * Length: 228 m
   * Breadth: 32 m
@@ -18,7 +18,7 @@ Tests with T--structures
   * Tidal current: 0.028 m/s (we did not use the background current)
   * Wind: 1.6 m/s, 1.8 m/s gust, direction of 242 deg  (we did not use wind forcing)
 
-* Computational grid and T-structure setup
+* Computational grid and T--structure setup
 
 .. figure:: images/grid_struc.jpg
     :align: center
