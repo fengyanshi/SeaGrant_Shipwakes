@@ -9,6 +9,7 @@ Results of 4 T--structure designs
   * Structure block small wakes more efficiently, than large bore waves (crests). 
   * Large velocity appear in nearfield of strutures, which may indicate local erosion at the structures.  
   * Blocking efficiency for wave height can be negative, caused by bachwash behind the strutures.   
+  * The tests were based on NAVD88. Tidal level may have some effects, need to be further investigated. 
   * Model setup, Matlab scripts and figures can be downloaded at `HERE (you must be in UD network) <https://drive.google.com/drive/folders/1vNBZI8x_VyTYy8KeXeV0TXn94lcaTTyS?usp=sharing>`_
 
 * T--structure design
