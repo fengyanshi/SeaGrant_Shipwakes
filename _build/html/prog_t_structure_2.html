@@ -1,0 +1,187 @@
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta charset="utf-8" />
+    <title>Results of 4 T–structure designs &#8212; SeaGrant V01 documentation</title>
+    <link rel="stylesheet" href="_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <script type="text/javascript" src="_static/language_data.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="SHIPWAKE MODEL" href="model.html" />
+    <link rel="prev" title="Initial tests with two T–structures" href="prog_t_structure.html" />
+   
+  <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="results-of-4-t-structure-designs">
+<h1>Results of 4 T–structure designs<a class="headerlink" href="#results-of-4-t-structure-designs" title="Permalink to this headline">¶</a></h1>
+<ul class="simple">
+<li><p>Summary</p>
+<ul>
+<li><p>Test cases include different vessel sizes, speeds, and heading directions. The following figures show MAXIMUM velocity/wave height with/without structures in some typical cases.</p></li>
+<li><p>The structures have more significant effects on wash velocity, versus wave height. The maximum blocking efficiency is upto 70% for velocity and 40% for wave height.</p></li>
+<li><p>The structures block waves from northbound vessels more efficiently than southbound. For southbound vessels, the blocking efficiency drops down half (about 30%) for velocity.</p></li>
+<li><p>Structure block small wakes more efficiently, than large bore waves (crests).</p></li>
+<li><p>Large velocity appear in nearfield of strutures, which may indicate local erosion at the structures.</p></li>
+<li><p>Blocking efficiency for wave height can be negative, caused by bachwash behind the strutures.</p></li>
+<li><p>Model setup, Matlab scripts and figures can be downloaded at <a class="reference external" href="https://drive.google.com/drive/folders/1vNBZI8x_VyTYy8KeXeV0TXn94lcaTTyS?usp=sharing">HERE (you must be in UD network)</a></p></li>
+</ul>
+</li>
+<li><p>T–structure design</p></li>
+</ul>
+<div class="align-center figure" id="id1">
+<a class="reference internal image-reference" href="_images/local_grid.jpg"><img alt="_images/local_grid.jpg" src="_images/local_grid.jpg" style="width: 400px;" /></a>
+<p class="caption"><span class="caption-text">Figure: T–structure in the grid (meters)</span><a class="headerlink" href="#id1" title="Permalink to this image">¶</a></p>
+</div>
+<div class="align-center figure" id="id2">
+<img alt="_images/dep_4T_zoom.jpg" src="_images/dep_4T_zoom.jpg" />
+<p class="caption"><span class="caption-text">Figure: T-structures resolved in the grid.</span><a class="headerlink" href="#id2" title="Permalink to this image">¶</a></p>
+</div>
+<ul class="simple">
+<li><p>Comparison of maximum velocity/elevation with/without structures</p></li>
+</ul>
+<hr><div class="align-center figure" id="id3">
+<img alt="_images/Vessel_LG_NS_6ms_struc.jpg" src="_images/Vessel_LG_NS_6ms_struc.jpg" />
+<p class="caption"><span class="caption-text">Figure: Results with structures. Efficiency = [Max(NoStructure)–Max(Structure)]/Max(NoStructure).</span><a class="headerlink" href="#id3" title="Permalink to this image">¶</a></p>
+</div>
+<div class="align-center figure" id="id4">
+<img alt="_images/Vessel_LG_NS_6ms_NOstruc.jpg" src="_images/Vessel_LG_NS_6ms_NOstruc.jpg" />
+<p class="caption"><span class="caption-text">Figure: Results without structures.</span><a class="headerlink" href="#id4" title="Permalink to this image">¶</a></p>
+</div>
+<hr><div class="align-center figure" id="id5">
+<img alt="_images/Vessel_LG_SN_6ms_struc.jpg" src="_images/Vessel_LG_SN_6ms_struc.jpg" />
+<p class="caption"><span class="caption-text">Figure: Results with structures. Efficiency = [Max(NoStructure)–Max(Structure)]/Max(NoStructure).</span><a class="headerlink" href="#id5" title="Permalink to this image">¶</a></p>
+</div>
+<div class="align-center figure" id="id6">
+<img alt="_images/Vessel_LG_SN_6ms_NOstruc.jpg" src="_images/Vessel_LG_SN_6ms_NOstruc.jpg" />
+<p class="caption"><span class="caption-text">Figure: Results without structures.</span><a class="headerlink" href="#id6" title="Permalink to this image">¶</a></p>
+</div>
+<hr><div class="align-center figure" id="id7">
+<img alt="_images/Vessel_LG_NS_7ms_struc.jpg" src="_images/Vessel_LG_NS_7ms_struc.jpg" />
+<p class="caption"><span class="caption-text">Figure: Results with structures. Efficiency = [Max(NoStructure)–Max(Structure)]/Max(NoStructure).</span><a class="headerlink" href="#id7" title="Permalink to this image">¶</a></p>
+</div>
+<div class="align-center figure" id="id8">
+<img alt="_images/Vessel_LG_NS_7ms_NOstruc.jpg" src="_images/Vessel_LG_NS_7ms_NOstruc.jpg" />
+<p class="caption"><span class="caption-text">Figure: Results without structures.</span><a class="headerlink" href="#id8" title="Permalink to this image">¶</a></p>
+</div>
+<hr><div class="align-center figure" id="id9">
+<img alt="_images/Vessel_LG_SN_7ms_struc.jpg" src="_images/Vessel_LG_SN_7ms_struc.jpg" />
+<p class="caption"><span class="caption-text">Figure: Results with structures. Efficiency = [Max(NoStructure)–Max(Structure)]/Max(NoStructure).</span><a class="headerlink" href="#id9" title="Permalink to this image">¶</a></p>
+</div>
+<div class="align-center figure" id="id10">
+<img alt="_images/Vessel_LG_SN_7ms_NOstruc.jpg" src="_images/Vessel_LG_SN_7ms_NOstruc.jpg" />
+<p class="caption"><span class="caption-text">Figure: Results without structures.</span><a class="headerlink" href="#id10" title="Permalink to this image">¶</a></p>
+</div>
+<hr><div class="align-center figure" id="id11">
+<img alt="_images/Vessel_LG_NS_8ms_struc.jpg" src="_images/Vessel_LG_NS_8ms_struc.jpg" />
+<p class="caption"><span class="caption-text">Figure: Results with structures. Efficiency = [Max(NoStructure)–Max(Structure)]/Max(NoStructure).</span><a class="headerlink" href="#id11" title="Permalink to this image">¶</a></p>
+</div>
+<div class="align-center figure" id="id12">
+<img alt="_images/Vessel_LG_NS_8ms_NOstruc.jpg" src="_images/Vessel_LG_NS_8ms_NOstruc.jpg" />
+<p class="caption"><span class="caption-text">Figure: Results without structures.</span><a class="headerlink" href="#id12" title="Permalink to this image">¶</a></p>
+</div>
+<hr><div class="align-center figure" id="id13">
+<img alt="_images/Vessel_SM_NS_6ms_struc.jpg" src="_images/Vessel_SM_NS_6ms_struc.jpg" />
+<p class="caption"><span class="caption-text">Figure: Results with structures. Efficiency = [Max(NoStructure)–Max(Structure)]/Max(NoStructure).</span><a class="headerlink" href="#id13" title="Permalink to this image">¶</a></p>
+</div>
+<div class="align-center figure" id="id14">
+<img alt="_images/Vessel_SM_NS_6ms_NOstruc.jpg" src="_images/Vessel_SM_NS_6ms_NOstruc.jpg" />
+<p class="caption"><span class="caption-text">Figure: Results without structures.</span><a class="headerlink" href="#id14" title="Permalink to this image">¶</a></p>
+</div>
+<hr><div class="align-center figure" id="id15">
+<img alt="_images/Vessel_SM_SN_6ms_struc.jpg" src="_images/Vessel_SM_SN_6ms_struc.jpg" />
+<p class="caption"><span class="caption-text">Figure: Results with structures. Efficiency = [Max(NoStructure)–Max(Structure)]/Max(NoStructure).</span><a class="headerlink" href="#id15" title="Permalink to this image">¶</a></p>
+</div>
+<div class="align-center figure" id="id16">
+<img alt="_images/Vessel_SM_SN_6ms_NOstruc.jpg" src="_images/Vessel_SM_SN_6ms_NOstruc.jpg" />
+<p class="caption"><span class="caption-text">Figure: Results without structures.</span><a class="headerlink" href="#id16" title="Permalink to this image">¶</a></p>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="index.html">SeaGrant</a></h1>
+
+
+
+
+
+
+
+
+<h3>Navigation</h3>
+<ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="progress.html"><strong>PROGRESS</strong></a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="prog_site_testing.html">Site Testing</a></li>
+<li class="toctree-l2"><a class="reference internal" href="prog_numerical_result.html">Animations</a></li>
+<li class="toctree-l2"><a class="reference internal" href="prog_t_structure.html">Initial tests with two T–structures</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">Results of 4 T–structure designs</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="model.html"><strong>SHIPWAKE MODEL</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="related_work.html"><strong>RELATED WORK</strong></a></li>
+</ul>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="index.html">Documentation overview</a><ul>
+  <li><a href="progress.html"><strong>PROGRESS</strong></a><ul>
+      <li>Previous: <a href="prog_t_structure.html" title="previous chapter">Initial tests with two T–structures</a></li>
+      <li>Next: <a href="model.html" title="next chapter"><strong>SHIPWAKE MODEL</strong></a></li>
+  </ul></li>
+  </ul></li>
+</ul>
+</div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" />
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2019, Fengyan Shi.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.1.2</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.10</a>
+      
+      |
+      <a href="_sources/prog_t_structure_2.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>

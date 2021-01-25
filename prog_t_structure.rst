@@ -1,5 +1,5 @@
-Tests with T--structures
-**********************************
+Initial tests with two T--structures
+***************************************
 
 * Vessel parameters
 
